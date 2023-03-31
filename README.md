@@ -7,6 +7,7 @@
 ```
     ./vendor/bin/sail up -d
     ./vendor/bin/sail composer install
+    ./vendor/bin/sail artisan migrate
 ```
 - Pronto, o projeto está pronto pra ser usado;
 - Para usar a api utilize a url **http://localhost:80**
